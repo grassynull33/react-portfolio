@@ -24,13 +24,22 @@
 }*/
 
 .App {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
+  align-items: stretch;*/
+}
+
+.flex-row {
+  display: flex;
+}
+
+.quad {
+  padding: 30px;
+  /*overflow: hidden;*/
 }
 
 .quad:hover {
-  cursor: pointer;
-  border: none;
-  background-color: rgba(0, 0, 0, 0.38196601125);
+  /*cursor: pointer;*/
+  /*border: none;
+  background-color: rgba(0, 0, 0, 0.38196601125);*/
 }

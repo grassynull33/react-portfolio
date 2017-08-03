@@ -10,10 +10,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <QuadrantOne />
-        <QuadrantTwo />
-        <QuadrantThree />
-        <QuadrantFour />
+        <div className="flex-row">
+          <QuadrantOne header="Yoon Lee" />
+          <QuadrantTwo header="Expertise" />
+        </div>
+        <div className="flex-row">
+          <QuadrantThree header="Portfolio" />
+          <QuadrantFour header="You" />
+        </div>
       </div>
     );
   }
