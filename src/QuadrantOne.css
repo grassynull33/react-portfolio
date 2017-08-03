@@ -1,0 +1,6 @@
+.QuadrantOne {
+  width: 61.803398875vw;
+  height: 61.803398875vh;
+  border-right: 1px solid rgba(0, 0, 0, 0.38196601125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.38196601125);
+}

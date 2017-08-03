@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -21,4 +21,16 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}*/
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.quad:hover {
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.38196601125);
 }
